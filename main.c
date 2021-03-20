@@ -6,7 +6,7 @@
 /*   By: mhumfrey <mhumfrey@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/13 21:25:05 by mhumfrey          #+#    #+#             */
-/*   Updated: 2021/03/20 06:34:52 by mhumfrey         ###   ########.fr       */
+/*   Updated: 2021/03/20 09:26:48 by mhumfrey         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -115,13 +115,13 @@ int main()
 	printf("%-20s: buffer[50]                         |\n", "| copy to");
 	printf("%-20s: \"%s\"                    |\n", "| lib", strcpy(buffer, hello));
 	clear_buffer(buffer, 30);
-	printf("%-20s: \"%s\"                                 |\n", "| my ", ft_strcpy(buffer, hello));
+	printf("%-20s: \"%s\"                    |\n", "| my ", ft_strcpy(buffer, hello));
 	clear_buffer(buffer, 30);
 	printf("%-20s: \"%s\"       |\n", "| char []", alphabet);
 	printf("%-20s: buffer[50]                         |\n", "| copy to");
 	printf("%-20s: \"%s\"       |\n", "| lib", strcpy(buffer, alphabet));
 	clear_buffer(buffer, 30);
-	printf("%-20s: \"%s\"                                 |\n", "| my ", ft_strcpy(buffer, alphabet));
+	printf("%-20s: \"%s\"       |\n", "| my ", ft_strcpy(buffer, alphabet));
 	clear_buffer(buffer, 30);
     printf ("|========================>strcpy<========================|\n\n");
     /*========================>strcpy<========================*/
